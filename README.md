@@ -1,1 +1,1 @@
-Проектная работа спринта №1: "Оно Тебе Надо" 
+https://github.com/roman-karamnov/ono-tebe-nado
