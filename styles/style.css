@@ -52,6 +52,7 @@
 
 .header__address {
   margin-right: 25.48px;
+  padding-right: 10px;
   font-style: normal;
   line-height: 24.3px;
   width: 240px;
@@ -287,47 +288,19 @@
   text-transform: uppercase;
 }
 
-.about__text_first_paragraph {
+.about__text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about__text {
   font-family: Raleway;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0.006em;
+  letter-spacing: 0.0025em;
   text-align: left;
-  margin-bottom: 24px;
-}
-
-.letter-spacing-zero {
-  letter-spacing: 0;
-}
-
-.letter-spicing-zero-point-zero-two {
-  letter-spacing: 0.02em;
-}
-
-.letter-spacing-minus-zero-point-zero-one {
-  letter-spacing: -0.01em;
-}
-
-.letter-spicing-zero-point-zero-three {
-  letter-spacing: 0.03em;
-}
-
-.about_text_second_paragraph {
-  font-family: Raleway;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-  letter-spacing: 0.1;
-}
-
-.letter-spicing-zero-point-zero-four {
-  letter-spacing: 0.04em;
-}
-
-.letter-spicing-zero-point-zero-one {
-  letter-spacing: 0.01em;
 }
 
 .footer {
