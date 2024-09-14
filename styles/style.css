@@ -12,7 +12,6 @@
 .header__menu {
   margin: 44px 36px 39px 26.52px;
   justify-self: start;
-  height: 22px;
   width: 391.48px;
 }
 
@@ -120,7 +119,6 @@
 }
 
 .cover__description {
-  height: 51px;
   position: relative;
   z-index: 1;
   display: flex;
@@ -158,11 +156,8 @@
 .lots {
   margin: 179px 24px 146px 24px;
   width: 1052px;
-  height: 692px;
-
   /* display: flex;
   align-items: center; возможно не понадобится flex здесь? не знаю нужен ли тут flex*/
-
   /* width: 1052px;
   height: 692px; не знаю нужно ли ограничвать размер блока может быть margin(а) достаточно будет*/
 }
@@ -220,7 +215,7 @@
 
 .card__title {
   z-index: 1;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 26.4px;
@@ -243,7 +238,7 @@
 
 .lots__look-more-link {
   display: inline-block;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 23.48px;
@@ -257,7 +252,6 @@
 
 .about {
   width: 1052px;
-  height: 595px;
   display: grid;
   grid-template-columns: 359px 693px;
   gap: 25px;
@@ -268,7 +262,7 @@
   height: 240px;
   border-radius: 50%;
   background-color: black;
-  margin-top: 35px;
+  margin-top: 38px;
   margin-left: 71px;
   margin-right: 72px;
 }
@@ -278,12 +272,12 @@
 }
 
 .about__title {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 46.96px;
   text-align: left;
-  margin-top: 136px;
+  margin-top: 138px;
   margin-bottom: 100px;
   text-transform: uppercase;
 }
@@ -295,7 +289,7 @@
 }
 
 .about__text {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -323,7 +317,6 @@
 
 .footer__menu {
   width: 149px;
-  height: 64px;
   margin-top: 1px;
   text-align: center;
   font-size: 18px;
